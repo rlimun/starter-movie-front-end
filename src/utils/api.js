@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'jdbc:postgresql://dpg-cn1geunqd2ns73dlc510-a.oregon-postgres.render.com:5432/backend_deployment_gzw4';
 
 /**
  * Defines the default headers for these functions to work with `json-server`
